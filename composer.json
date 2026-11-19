@@ -1,0 +1,38 @@
+{
+    "name": "sahar-41087/efilter-evo",
+    "description": "Product filter for Evolution CMS 3.x — controller + Blade views, no snippets, no DocLister/multiTV dependency.",
+    "type": "library",
+    "keywords": ["evolution-cms", "evo", "filter", "products", "laravel", "blade"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "webber",
+            "email": "web-ber12@yandex.ru",
+            "role": "Original author"
+        },
+        {
+            "name": "sahar-41087",
+            "role": "Maintainer (Evolution 3.x port)"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sahar41087\\EFilterEvo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sahar41087\\EFilterEvo\\EFilterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
